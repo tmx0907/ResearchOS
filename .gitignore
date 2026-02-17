@@ -1,0 +1,6 @@
+secrets/
+*.env
+__pycache__/
+logs/
+.DS_Store
+.obsidian/
