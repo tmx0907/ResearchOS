@@ -15,7 +15,7 @@
 터미널에서 아래 순서로 실행:
 
 ```bash
-cd /Users/jungeunkim/ResearchOS/scripts
+cd ~/ResearchOS/scripts
 
 # 상태 점검
 bash health_check.sh
@@ -34,10 +34,10 @@ python3 citation_paragraph_builder.py \
 ```
 
 생성 결과:
-- 카드: `/Users/jungeunkim/ResearchOS/02_cards_quick/`
-- 인덱스: `/Users/jungeunkim/ResearchOS/INDEX_MASTER.md` 등
-- 문단 초안: `/Users/jungeunkim/ResearchOS/06_thesis/sections/`
-- 인용 추적 CSV: `/Users/jungeunkim/ResearchOS/06_thesis/`
+- 카드: `~/ResearchOS/02_cards_basic/`
+- 인덱스: `~/ResearchOS/INDEX_MASTER.md` 등
+- 문단 초안: `~/ResearchOS/06_thesis/sections/`
+- 인용 추적 CSV: `~/ResearchOS/06_thesis/`
 
 ---
 
@@ -46,8 +46,8 @@ python3 citation_paragraph_builder.py \
 Scopus CSV를 받은 뒤:
 
 ```bash
-python3 /Users/jungeunkim/ResearchOS/scripts/ai_screener.py \
-  /Users/jungeunkim/ResearchOS/00_search_design/scopus_exports/your_export.csv \
+python3 ~/ResearchOS/scripts/ai_screener.py \
+  ~/ResearchOS/00_search_design/scopus_exports/your_export.csv \
   --write
 ```
 

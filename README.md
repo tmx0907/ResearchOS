@@ -6,6 +6,19 @@
 
 [설치 가이드](INSTALL.md) 참고
 
+### 뉴비 3줄 설치
+```bash
+git clone https://github.com/tmx0907/ResearchOS.git ~/ResearchOS
+cd ~/ResearchOS
+bash scripts/setup_newbie.sh
+```
+
+## 배포 문서 (학생용)
+
+- [학생 배포 PRD](PRD_STUDENT_DISTRIBUTION_KR.md)
+- [MVP 배포 체크리스트](MVP_RELEASE_CHECKLIST_KR.md)
+- [복제 설치 가이드](SHARE_SETUP_GUIDE_KR.md)
+
 ## 특징
 
 - Zotero 자동 연동
